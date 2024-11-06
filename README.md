@@ -57,6 +57,7 @@ This project demonstrates a SIEM (Security Information and Event Management) sol
 ```
 
 ##Configuring Alerting and Notifications
+
 Elastic Stack's alerting capabilities allow for setting up rules and notifications for specific events.
 
 Define Alert Rules
