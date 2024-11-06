@@ -7,7 +7,7 @@ This project demonstrates a SIEM (Security Information and Event Management) sol
 Set up Elastic Stack as a SIEM tool.
 Configure alerting mechanisms to notify about suspicious activities.
 Test the alerting pipeline to ensure effective monitoring.
-
+play/Screenshot 2024-11-01 141024.png
 4. Elastic Stack Components Used
 Elasticsearch: Core data store and analytics engine.
 Logstash: Data processing pipeline for ingestion.
