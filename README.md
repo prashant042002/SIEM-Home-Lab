@@ -40,22 +40,23 @@ This project demonstrates a SIEM (Security Information and Event Management) sol
    sudo dpkg -i elasticsearch-7.x.x-amd64.deb
    sudo systemctl start elasticsearch
    sudo systemctl enable elasticsearch
-   
+   ```
 2. **Install Logstash**:
   ```bash
     wget https://artifacts.elastic.co/downloads/logstash/logstash-7.x.x.deb
     sudo dpkg -i logstash-7.x.x.deb
     sudo systemctl start logstash
     sudo systemctl enable logstash
-
+```
 3. **Install Kibana**:
   ```bash
     wget https://artifacts.elastic.co/downloads/kibana/kibana-7.x.x-amd64.deb
     sudo dpkg -i kibana-7.x.x-amd64.deb
     sudo systemctl start kibana
     sudo systemctl enable kibana
+```
 
-Configuring Alerting and Notifications
+##Configuring Alerting and Notifications
 Elastic Stack's alerting capabilities allow for setting up rules and notifications for specific events.
 
 Define Alert Rules
@@ -74,7 +75,7 @@ Configure Notification Settings
 Add an action to notify via email, Slack, or webhooks when an alert is triggered.
 Example: Configure an email action to notify administrators of high-severity alerts.
 
-Testing the Alerting and Notification Pipeline
+##Testing the Alerting and Notification Pipeline
 
 Sample Data Generation
 Generate synthetic events, such as multiple failed logins or abnormal network traffic, to simulate security incidents.
